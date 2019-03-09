@@ -90,7 +90,7 @@ include 'lang/configlang.php';
               <a class="nav-link py-1 px-0 px-lg-0 rounded js-scroll-trigger" href="index.php?lang=fr">FR</a>
             </li>
                <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-1 px-0 px-lg-0 rounded js-scroll-trigger" href="index.php?lang=nl">NL</a>
+              <a class="nav-link py-1 px-0 px-lg-0 rounded js-scroll-trigger" href="index.php?lang=nl">NLfff</a>
             </li>
           </ul>
         </div>
