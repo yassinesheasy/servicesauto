@@ -83,14 +83,14 @@ include 'lang/configlang.php';
             <div class="collapse navbar-collapse" id="navbarLang">
           <ul class="navbar-nav ml-auto">
               
-              <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-1 px-0 px-lg-2 rounded js-scroll-trigger" href="index.php?lang=en">EN</a>
+              <li class="nav-item mx-0 mx-lg-0">
+              <a class="nav-link py-1 px-0 px-lg-0 rounded js-scroll-trigger" href="index.php?lang=en">EN</a>
             </li>
                <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-1 px-0 px-lg-2 rounded js-scroll-trigger" href="index.php?lang=fr">FR</a>
+              <a class="nav-link py-1 px-0 px-lg-0 rounded js-scroll-trigger" href="index.php?lang=fr">FR</a>
             </li>
                <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-1 px-0 px-lg-2 rounded js-scroll-trigger" href="index.php?lang=nl">NL</a>
+              <a class="nav-link py-1 px-0 px-lg-0 rounded js-scroll-trigger" href="index.php?lang=nl">NL</a>
             </li>
           </ul>
         </div>
@@ -100,7 +100,7 @@ include 'lang/configlang.php';
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-	      <h2 class="text-center text-uppercase "><?php  echo _H_Presentation_1; ?><span class="text-secondary" ><?php  echo _H_Presentation_2; ?></span></h2>
+	      <h2 class="text-center text-uppercase "><?php  echo _H_Presentation_1; ?><span class="text-secondary" > <?php  echo _H_Presentation_2; ?></span></h2>
 	      <h2 class="text-center text-uppercase "><?php  echo _H_Presentation_3; ?></h2>
  
 	      <!--vers vos services<span class="fw6 f4 ml3" style="color:#128f76">ⱯꓵꓕO</span>-->	      	
@@ -108,7 +108,7 @@ include 'lang/configlang.php';
 		<font size="9"><b>À TEMPS ET SANS LE MOINDRE EFFORT</b></font>-->
         	<hr class="star-light">
 		<h6 class="font-weight-light mb-0"><?php  echo _H_Presentation_4; ?></h6>
-		<h6 class="font-weight-light mb-0"><?php  echo _H_Presentation_5; ?><img src="img/iconLogo/ethias.jpeg"><?php  echo _H_Presentation_6; ?><img src="img/iconLogo/assisteur_small_be.png">.</h6>
+		<h6 class="font-weight-light mb-0"><?php  echo _H_Presentation_5; ?>.</h6>
 		<h6 class="font-weight-light mb-0"><?php  echo _H_Presentation_7; ?></h6>
 		<br>
 		<br>
@@ -173,7 +173,7 @@ include 'lang/configlang.php';
     <!-- Portfolio Grid Section -->
     <section class="portfolio" id="portfolio">
       <div class="container">
-       <h3 class="text-center text-uppercase text-secondary mb-0"><?php  echo _Portfolio_1; ?><span class="fw6 f4 ml3" style="color:#128f76"><?php  echo _Portfolio_2; ?></span></h3>
+       <h3 class="text-center text-uppercase text-secondary mb-0"><?php  echo _Portfolio_1; ?></h3>
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-md-6 col-lg-4 containerx">
@@ -258,6 +258,20 @@ include 'lang/configlang.php';
 	      <!--<h6 class="text-center text-secondary">Carwash</h6>-->
             </a>
           </div>
+		         <div class="col-md-6 col-lg-4 containerx">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="imageServices" src="img/portfolio/submarine.png" alt="">
+	      <div class="middleServices">
+    		<h6 class="textServices2"><?php  echo _Portfolio_8; ?></h6>
+  	      </div>
+	      <!--<h6 class="text-center text-secondary">Carwash</h6>-->
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -269,7 +283,7 @@ include 'lang/configlang.php';
         <hr class="star-light mb-5">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-		  <p class="lead"><?php  echo _about_2; ?><span class="fw6 f4 ml3" style="color:#128f76"><?php  echo _about_3; ?></span><?php  echo _about_4; ?></p>
+		  <p class="lead"><?php  echo _about_2; ?> <span class="fw6 f4 ml3" style="color:#128f76"><?php  echo _about_3; ?></span><?php  echo _about_4; ?></p>
           </div>
           <div class="col-lg-4 mr-auto">
             <p class="lead"><?php  echo _about_5; ?></p>
@@ -435,6 +449,7 @@ include 'lang/configlang.php';
       					<option value="5"><?php  echo _precommande_reparation_vitrage; ?></option>
       					<option value="6"><?php  echo _precommande_lavage; ?></option>
       					<option value="7"><?php  echo _precommande_deplacement; ?></option>
+						
     				</select>
   			</div>
 					<label for="inputDate"><?php  echo _precommande_date_service; ?></label>
@@ -518,7 +533,7 @@ include 'lang/configlang.php';
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0"><?php  echo _precommande_CT; ?></h2>
               <p><?php  echo _precommande_ct_text1; ?></p>
-              <p class="mb-5"><?php  echo _precommande_ct_text2; ?></p>
+              <!--<p class="mb-5"><?php  echo _precommande_ct_text2; ?></p>-->
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
@@ -541,7 +556,7 @@ include 'lang/configlang.php';
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0"><?php  echo _precommande_entretien_reparation; ?></h2>
               <p><?php  echo _precommande_entretien_reparation_text_1; ?></p>
-              <p class="mb-5"><?php  echo _precommande_entretien_reparation_text_2; ?></p>
+              <!--<p class="mb-5"><?php  echo _precommande_entretien_reparation_text_2; ?></p>-->
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
@@ -564,7 +579,7 @@ include 'lang/configlang.php';
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0"><?php  echo _precommande_pneu_auto; ?></h2>
 	      <p><?php  echo _precommande_pneu_auto_text_1; ?></p>
-              <p class="mb-5"><?php  echo _precommande_pneu_auto_text_2; ?></p>
+              <!--<p class="mb-5"><?php  echo _precommande_pneu_auto_text_2; ?></p>-->
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
@@ -587,7 +602,7 @@ include 'lang/configlang.php';
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0"><?php  echo _precommande_reparation_carroserie; ?></h2>
               <p><?php  echo _precommande_reparation_carroserie_text_1; ?></p>
-              <p class="mb-5"><?php  echo _precommande_reparation_carroserie_text_2; ?></p>
+              <!--<p class="mb-5"><?php  echo _precommande_reparation_carroserie_text_2; ?></p>-->
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
@@ -610,7 +625,7 @@ include 'lang/configlang.php';
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0"><?php  echo _precommande_reparation_vitrage; ?></h2>
               <p><?php  echo _precommande_reparation_vitrage_text_1; ?></p>
-              <p class="mb-5"><?php  echo _precommande_reparation_vitrage_text_2; ?></p>
+              <!--<p class="mb-5"><?php  echo _precommande_reparation_vitrage_text_2; ?></p>-->
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
@@ -633,7 +648,7 @@ include 'lang/configlang.php';
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0"><?php  echo _precommande_lavage; ?></h2>
               <p><?php  echo _precommande_lavage_text_1; ?></p>
-              <p class="mb-5"><?php  echo _precommande_lavage_text_2; ?></p>
+              <!--<p class="mb-5"><?php  echo _precommande_lavage_text_2; ?></p>-->
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
