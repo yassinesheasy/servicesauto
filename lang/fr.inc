@@ -37,8 +37,10 @@ define("_Portfolio_8","Lavage & nettoyage");
 define("_about_1","Qui nous sommes ?");
 define("_about_2","Services");
 define("_about_3","Auto");
-define("_about_4"," offre plusieurs types de services voituriers. Vous avez besoin de faire passer votre véhicule au contrôle technique ou faire un entretien chez votre mécanicien ou une réparation chez votre carrossier ou encore pour un lavage ou des changements de pneus. L'un de nos voituriers s'occupera d'amener votre vehicule ou vous le desirez. Tous les voituriers sont sélectionnés et évalués sur un ensemble de critères qualités ainsi que par nos clients afin de vous garantir le meilleur service.");
-define("_about_5","Nos voituriers s'occupent de récupérer votre véhicule à votre domicile ou sur votre lieu de travail et se chargent de l'amener vers l'un des services automobiles que vous souhaitez effectuer. ils peuvent ensuite si vous le désirez vous ramener votre véhicule une fois l'intervention de votre garagiste terminé. Les propriétaires des véhicules bénéficient d'une couverture d'assurance durant le déplacement.");
+define("_about_4"," fait du Car Caring et vous permet ainsi d'externaliser la gestion de votre véhicule ce qui permet de gagner du temps et facilite la vie. yyyyèVous avez juste à réservé un voiturier sur notre plateforme qui s'occupera d'amener votre véhicule ou vous le désirez.
+ Tous les voituriers sont sélectionnés et évalués sur un ensemble de critères qualités ainsi que par nos clients afin de vous garantir le meilleur service.
+");
+define("_about_5","Nos voituriers s'occupent de récupérer votre véhicule à votre domicile ou sur votre lieu de travail et se chargent de l'amener ou vous le désirez. Ils peuvent ensuite si vous le désirez-vous ramener votre véhicule une fois l'intervention terminé. Les véhicules bénéficient d'une assurance durant le déplacement.");
 define("_contact_1","Contactez-nous");
 define("_contact_2","Name");
 define("_contact_3","Veuillez entrer votre nom et prénom.");
