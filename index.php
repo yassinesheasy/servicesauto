@@ -129,7 +129,7 @@ include 'lang/configlang.php';
               					<li><?php  echo _Offre_Particulier_6; ?></li>
               					<br/>
 	    				</ul>
-					<a class="btn btn-lg btn-block btn-primary" href="#form-precommander-particuliers" role="button"><?php  echo _Offre_Particulier_7; ?></a>
+                                        <a class="btn btn-lg btn-block btn-primary" href="Formulaire.php" role="button"><?php  echo _Offre_Particulier_7; ?></a>
 					<!--<button type="button" class="btn btn-lg btn-block btn-primary">Précommander</button>-->
   				</div>
 			</div>
