@@ -16,7 +16,7 @@ if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['phone']) || 
 
 $email = strip_tags(htmlspecialchars($_POST['email']));
 
-$phone = strip_tags(htmlspecialchars($_POST['phone']));
+$vehiclerestitution = strip_tags(htmlspecialchars($_POST['vehiclerestitution']));
 
 $selectedservice = strip_tags(htmlspecialchars($_POST['selectedservice']));
 
@@ -28,7 +28,7 @@ $to = "yassinesheasy@gmail.com"; // Add your email address inbetween the "" repl
 
 $subject = "Website Contact Form:";
 
-$body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email\n\nPhone: $phone \n\nService selectionné :\n $selectedservice";
+$body = "You have received a new command .\n\n"."Return of the vehicle : $vehiclerestitution \n\nSelected service : $selectedservice";
 
 $header = "From: indexform01@servicesauto.be\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 
