@@ -1,0 +1,7 @@
+.datepicker,
+.timepicker,
+.datetimepicker {
+	.form-control {
+		background: #fff;
+	}
+}
